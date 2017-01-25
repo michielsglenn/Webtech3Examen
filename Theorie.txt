@@ -1,0 +1,9 @@
+Vraag 3: Waarom kunnen REST en SOAP niet met elkaar vergeleken worden?  wat is het fundamentele verschil tussen beiden?
+Alhoewel SOAP en REST beiden manieren zijn om webservices aan te spreken hebben ze ook allebei hun voor -en nadelen.
+Het fundamentele verschil is dat SOAP een protocol is terwijl REST een architectuurstijl is.
+
+Vraag 4: Eén van de grote voordelen van SOAP XML is type safety. Beschrijf twee simpele manieren waarop je dit in REST ook zou kunnen implementeren gebruik makend van standaard libraries.
+
+
+manier #1: we zorgen ervoor dat al onze methods safe/idempotent zijn. http://restcookbook.com/HTTP%20Methods/idempotency/
+
